@@ -112,7 +112,7 @@ const Index = () => {
             <div className="aspect-video bg-black relative overflow-hidden">
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://disk.yandex.ru/i/jvzaF36uOEXAYQ"
+                src="https://drive.google.com/file/d/1cMK1lLJV9S4hIvgCqF7208QnPOUbthks/preview"
                 title="Красная команда"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                 allowFullScreen
@@ -135,7 +135,7 @@ const Index = () => {
             <div className="aspect-video bg-black relative overflow-hidden">
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://disk.yandex.ru/i/MduqiNnVit8s2Q"
+                src="https://drive.google.com/file/d/1zICZW3_ZnrxM1D3GKZjj6ne15zXrKnf5/preview"
                 title="Синяя команда"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                 allowFullScreen
