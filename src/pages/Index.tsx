@@ -109,10 +109,14 @@ const Index = () => {
 
         <div className="grid md:grid-cols-2 gap-6 mb-8 max-w-6xl mx-auto">
           <Card className="bg-card/95 backdrop-blur-sm border-battle-red/50 overflow-hidden animate-scale-up hover:scale-105 transition-transform">
-            <div className="aspect-video bg-black/50 relative">
-              <div className="absolute inset-0 flex items-center justify-center text-4xl font-display font-bold text-battle-red">
-                🔴 КРАСНАЯ КОМАНДА
-              </div>
+            <div className="aspect-video bg-black relative overflow-hidden">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1&modestbranding=1"
+                title="Красная команда"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
             <div className="p-6">
               <h3 className="font-display text-2xl font-bold text-battle-red mb-4">Красная команда</h3>
@@ -128,10 +132,14 @@ const Index = () => {
           </Card>
 
           <Card className="bg-card/95 backdrop-blur-sm border-battle-blue/50 overflow-hidden animate-scale-up hover:scale-105 transition-transform" style={{ animationDelay: '0.1s' }}>
-            <div className="aspect-video bg-black/50 relative">
-              <div className="absolute inset-0 flex items-center justify-center text-4xl font-display font-bold text-battle-blue">
-                🔵 СИНЯЯ КОМАНДА
-              </div>
+            <div className="aspect-video bg-black relative overflow-hidden">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1&modestbranding=1"
+                title="Синяя команда"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
             <div className="p-6">
               <h3 className="font-display text-2xl font-bold text-battle-blue mb-4">Синяя команда</h3>
