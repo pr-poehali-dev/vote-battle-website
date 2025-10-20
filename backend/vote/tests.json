@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Get voting results",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "red": "number",
+        "blue": "number",
+        "total": "number"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Vote for red team",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "team": "red"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "red": "number",
+        "blue": "number"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Vote for blue team",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "team": "blue"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
