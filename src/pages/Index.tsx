@@ -110,14 +110,13 @@ const Index = () => {
         <div className="grid md:grid-cols-2 gap-6 mb-8 max-w-6xl mx-auto">
           <Card className="bg-card/95 backdrop-blur-sm border-battle-red/50 overflow-hidden animate-scale-up hover:scale-105 transition-transform">
             <div className="aspect-video bg-black relative overflow-hidden">
-              <video
-                className="absolute inset-0 w-full h-full object-cover"
-                controls
-                preload="metadata"
-              >
-                <source src="https://disk.yandex.ru/i/jvzaF36uOEXAYQ" type="video/mp4" />
-                Ваш браузер не поддерживает видео
-              </video>
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://disk.yandex.ru/i/jvzaF36uOEXAYQ"
+                title="Красная команда"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                allowFullScreen
+              />
             </div>
             <div className="p-6">
               <h3 className="font-display text-2xl font-bold text-battle-red mb-4">Красная команда</h3>
@@ -134,14 +133,13 @@ const Index = () => {
 
           <Card className="bg-card/95 backdrop-blur-sm border-battle-blue/50 overflow-hidden animate-scale-up hover:scale-105 transition-transform" style={{ animationDelay: '0.1s' }}>
             <div className="aspect-video bg-black relative overflow-hidden">
-              <video
-                className="absolute inset-0 w-full h-full object-cover"
-                controls
-                preload="metadata"
-              >
-                <source src="https://disk.yandex.ru/i/MduqiNnVit8s2Q" type="video/mp4" />
-                Ваш браузер не поддерживает видео
-              </video>
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://disk.yandex.ru/i/MduqiNnVit8s2Q"
+                title="Синяя команда"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                allowFullScreen
+              />
             </div>
             <div className="p-6">
               <h3 className="font-display text-2xl font-bold text-battle-blue mb-4">Синяя команда</h3>
